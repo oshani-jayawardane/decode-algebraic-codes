@@ -88,6 +88,15 @@ def cos2(x, n):
 
 # Test case
 
+np.random.seed(42)
+
+n = 16
+q = 5
+num_samples = 3
+
+dataset = np.random.randint(0, q, size=(num_samples, n))
+print(dataset)
+
 encoded_dataset = np.array([cos2(message, n) for message in dataset])
 encoded_dataset[np.abs(encoded_dataset) < 1e-10] = 0
 encoded_dataset = np.round(encoded_dataset, decimals=10)
