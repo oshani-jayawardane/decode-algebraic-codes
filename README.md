@@ -7,6 +7,4 @@ We attempt to decode algebraic codes over finite fields by combining classical a
 
 ### Preliminary Experiments
 These notebooks were used to understand and validate DFT/DCT behavior before imposing structure on the networks. 
-- [Classical DCT]([1_Classical_DCT.ipynb](https://github.com/oshani-jayawardane/decode-algebraic-codes/blob/main/1_Classical_DCT.ipynb))
-- [Classical DFT]([2_Classical_DFT.ipynb](https://github.com/oshani-jayawardane/decode-algebraic-codes/blob/main/2_Classical_DFT.ipynb))
-- [DFT-DCT Relationship]([6_DFT_DCT_Relationship.ipynb](https://github.com/oshani-jayawardane/decode-algebraic-codes/blob/main/4_DFT_DCT_Relationship.ipynb))
+- [Classical DCT2 and DCT3](https://github.com/oshani-jayawardane/decode-algebraic-codes/blob/main/1_Classical_DCT.ipynb)
